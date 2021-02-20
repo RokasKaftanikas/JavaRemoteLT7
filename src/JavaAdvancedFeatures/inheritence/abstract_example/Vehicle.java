@@ -8,5 +8,6 @@ public abstract class Vehicle {
         this.maxSpeed = maxSpeed;
     }
 
+    // ctrl + alt + l
     public abstract int vehicleMaxSpeed();
 }
