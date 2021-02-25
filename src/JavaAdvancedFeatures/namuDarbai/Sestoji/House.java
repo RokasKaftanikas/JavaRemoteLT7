@@ -3,10 +3,10 @@ package JavaAdvancedFeatures.namuDarbai.Sestoji;
 public class House {
     //Susikurti objektą `House`, su laukais: `houseArea`, `district`, `builtYear`, `condition`
 
-    double houseArea;
-    String district;
-    int builtYear;
-    String condition;
+    private double houseArea;
+    private String district;
+    private int builtYear;
+    private String condition;
 
     public House(double houseArea, String district, int builtYear, String condition){
         this.builtYear = builtYear;
@@ -29,5 +29,14 @@ public class House {
 
     public String getDistrict() {
         return district;
+    }
+
+    public String toString() {
+        return "House{" +
+                "houseArea=" + houseArea +
+                ", district='" + district + '\'' +
+                ", builtYear=" + builtYear +
+                ", condition='" + condition + '\'' +
+                '}';
     }
 }

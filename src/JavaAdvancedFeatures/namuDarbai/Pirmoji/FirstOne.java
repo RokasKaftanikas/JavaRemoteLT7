@@ -1,4 +1,4 @@
-package JavaAdvancedFeatures.namuDarbai;
+package JavaAdvancedFeatures.namuDarbai.Pirmoji;
 
 import java.util.Locale;
 

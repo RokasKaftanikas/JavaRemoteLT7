@@ -28,18 +28,5 @@ public class Main4 {
             }
         }
     return manufacturer + " " + model;
-
-    /*
-     Mobile mobilka1 = new Mobile("S21", "Samsung", 1000.00);
-        Mobile mobilka2 = new Mobile("11", "iPhone", 1250.00);
-        Mobile mobilka3 = new Mobile("40", "Huawei", 800.00);
-
-        if (mobilka1.price > mobilka2.price && mobilka1.price > mobilka3.price){
-            System.out.println(mobilka1.manufacturer + " " + mobilka1.model);
-        } else if (mobilka2.price > mobilka1.price && mobilka2.price > mobilka3.price){
-            System.out.println(mobilka2.manufacturer + " " + mobilka2.model);
-        } else {
-            System.out.println(mobilka3.manufacturer + " " + mobilka3.model);
-     */
     }
 }

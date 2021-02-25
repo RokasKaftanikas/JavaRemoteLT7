@@ -1,23 +1,14 @@
 package JavaAdvancedFeatures.namuDarbai.Trecioji;
 
 public class Car {
-    /*
-    3. Susikurti objektą "Car", su laukais: "model", "engine", "year", "price", "type (sedan, touring, suv)"
-    * Inicializuoti 3 "Car" objektus naudojantis ciklą;
-    * Objektai turi būti saugomi masyve;
-    * Sukurti metodą naujausiam automobiliui rasti ir išspausdinti automobilio metus;
-    * Sukurti metodą vidutinei automobilio kainai rasti;
-    * Sukurti metodą, kuris atspausdins automobilio modelį, kurio tipas = 'sedan';
-    * Sukurti metodą brangiausiam automobiliui rasti.
-     */
 
-    String model;
-    String engine;
-    int year;
-    double price;
-    String type;
+    private String model;
+    private int engine;
+    private int year;
+    private double price;
+    private String type;
 
-    public Car(String model, String engine, int year, double price, String type){
+    public Car(String model, int engine, int year, double price, String type){
         this.model = model;
         this.engine = engine;
         this.year = year;
@@ -28,7 +19,7 @@ public class Car {
     public String getModel(){
         return model;
     }
-    public String getEngine(){
+    public int getEngine(){
         return engine;
     }
     public int getYear() {
@@ -37,8 +28,12 @@ public class Car {
     public double getPrice(){
         return price;
     }
-
     public String getType() {
         return type;
+    }
+
+    //Deimanto pridetinis variantas
+    public String toString(){
+        return String.format("%s, %i", this.model, this.year);
     }
 }

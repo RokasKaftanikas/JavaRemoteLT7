@@ -39,15 +39,14 @@ public class Main6 {
     }
 
     public static String CheckIfHouseIsFitted(House[] houseArray) {
-        String district2 = null;
-        String district3 = null;
+        int fittedHouses = 0;
         for (int k = 0; k < houseArray.length; k++) {
-            if (houseArray[k].getCondition().matches("fitted")) {
-                district2 = houseArray[k].getDistrict();
-                district2 = houseArray[k].getDistrict();
+            if (houseArray[k].getCondition().equals("fitted")) {
+                fittedHouses++;
+
             }
         }
-        return "The house in " + district2 + " is fitted";
+        return "The house in " + fittedHouses + " is fitted";
     }
 
     public static String SmallestArea(House[] houseArray) {

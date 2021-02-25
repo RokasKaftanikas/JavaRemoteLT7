@@ -2,9 +2,9 @@ package JavaAdvancedFeatures.namuDarbai.ketvirtoji;
 
 public class Mobile {
 
-    String model;
-    String manufacturer;
-    double price;
+    private String model;
+    private String manufacturer;
+    private double price;
 
     public Mobile(String model, String manufacturer, double price){
         this.model = model;
@@ -22,4 +22,14 @@ public class Mobile {
     public double getPrice() {
         return price;
     }
+
+    //Deimanto prirasymas
+    public String toString(){
+        return "Mobile{" +
+                " model= " + model +
+                " manufacturer= " + manufacturer +
+                " price= " + price +
+                "}";
+            }
+
 }

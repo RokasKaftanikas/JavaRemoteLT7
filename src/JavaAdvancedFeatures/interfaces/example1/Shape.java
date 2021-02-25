@@ -9,6 +9,4 @@ public interface Shape {
     default void printShape(){
         System.out.println("Shape: " + this.getClass().getSimpleName());
     }
-
-
 }
