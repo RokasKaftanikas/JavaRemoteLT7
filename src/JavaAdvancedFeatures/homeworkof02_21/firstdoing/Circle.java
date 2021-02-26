@@ -1,0 +1,16 @@
+package JavaAdvancedFeatures.homeworkof02_21.firstdoing;
+
+public class Circle extends Shape{
+
+    private double radius;
+
+    public Circle(double radius, String shapeDescription){
+        super(shapeDescription);
+        this.radius = radius;
+    }
+
+    @Override
+    public String getArea() {
+        return radius * Math.pow(Math.PI, 2) + " is the area of the " + shapeDescription;
+    }
+}

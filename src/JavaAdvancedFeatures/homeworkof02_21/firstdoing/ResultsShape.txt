@@ -1,0 +1,3 @@
+98.69604401089359 is the area of the Circle
+12.0 is the area of the Rectangle
+4.0 is the area of the Right Angle Rectangle
