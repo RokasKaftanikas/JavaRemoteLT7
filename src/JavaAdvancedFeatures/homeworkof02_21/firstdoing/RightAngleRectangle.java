@@ -1,6 +1,6 @@
 package JavaAdvancedFeatures.homeworkof02_21.firstdoing;
 
-public class RightAngleRectangle extends Shape{
+public class RightAngleRectangle extends Shape {
 
     double width;
     double height;
@@ -14,5 +14,10 @@ public class RightAngleRectangle extends Shape{
     @Override
     public String getArea() {
         return ((width * height)/2) + " is the area of the " + shapeDescription;
+    }
+
+    @Override
+    public String getLength() {
+        return null;
     }
 }

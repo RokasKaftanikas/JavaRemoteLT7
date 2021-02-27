@@ -12,7 +12,7 @@ public class MainShape {
         Rectangle rectangle = new Rectangle("Rectangle", 3, 4);
         RightAngleRectangle rightAngleRectangle = new RightAngleRectangle("Right Angle Rectangle", 2, 4);
 
-        String text = circle.getArea() + "\n" + rectangle.getArea() + "\n" + rightAngleRectangle.getArea();
+        String text = circle.getArea() + "\n" + circle.getLength() + "\n" + rectangle.getArea() + "\n" + rightAngleRectangle.getArea();
         System.out.println(text);
 
         try (BufferedWriter bw = new BufferedWriter(new FileWriter(Inputs_Outputs.RESULTS_SHAPE_FILE_LOCATION))) {

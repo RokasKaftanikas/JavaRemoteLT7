@@ -13,4 +13,9 @@ public class Circle extends Shape{
     public String getArea() {
         return radius * Math.pow(Math.PI, 2) + " is the area of the " + shapeDescription;
     }
+
+    @Override
+    public String getLength() {
+        return 2 * Math.PI * radius + " is a length " + shapeDescription;
+    }
 }

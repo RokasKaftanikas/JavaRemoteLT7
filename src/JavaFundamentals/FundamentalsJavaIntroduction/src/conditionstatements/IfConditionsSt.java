@@ -1,8 +1,5 @@
 package JavaFundamentals.FundamentalsJavaIntroduction.src.conditionstatements;
 
-import netscape.javascript.JSUtil;
-
-import java.sql.SQLOutput;
 import java.util.Scanner;
 
 public class IfConditionsSt {

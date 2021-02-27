@@ -18,6 +18,9 @@ public abstract class Shape {
     public Shape(String shapeDescription){
         this.shapeDescription = shapeDescription;
     }
+
     public abstract String getArea();
+
+    public abstract String getLength();
 
 }
