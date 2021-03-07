@@ -14,7 +14,7 @@ public class Calculator {
         return firstNum * secondNum;
     }
 
-    public int dalyba (int firstNum, int secondNum){
+    public int dalyba(int firstNum, int secondNum){
         return firstNum / secondNum;
     }
 }
