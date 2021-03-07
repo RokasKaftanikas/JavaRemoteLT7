@@ -1,0 +1,14 @@
+Brangiausia prekė: 
+JavaAdvancedFeatures.homeworkof02_21.company.Device@d041cf
+
+Technologijų kompanijos: 
+JavaAdvancedFeatures.homeworkof02_21.company.Company@2f7a2457
+JavaAdvancedFeatures.homeworkof02_21.company.Company@566776ad
+
+
+Brangiausi divaisai: 
+JavaAdvancedFeatures.homeworkof02_21.company.Device@6108b2d7
+JavaAdvancedFeatures.homeworkof02_21.company.Device@d041cf
+JavaAdvancedFeatures.homeworkof02_21.company.Device@1554909b
+JavaAdvancedFeatures.homeworkof02_21.company.Device@6bf256fa
+JavaAdvancedFeatures.homeworkof02_21.company.Device@6cd8737
