@@ -1,4 +1,4 @@
-package JavaAdvancedFeatures.homeworkof02_21.firstdoing;
+package JavaAdvancedFeatures.homeworkof02_21.shapes;
 
 import JavaAdvancedFeatures.homeworkof02_21.input_output_utils.Inputs_Outputs;
 

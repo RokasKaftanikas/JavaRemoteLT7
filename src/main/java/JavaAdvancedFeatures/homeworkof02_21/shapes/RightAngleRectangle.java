@@ -1,4 +1,4 @@
-package JavaAdvancedFeatures.homeworkof02_21.firstdoing;
+package JavaAdvancedFeatures.homeworkof02_21.shapes;
 
 public class RightAngleRectangle extends Shape {
 
