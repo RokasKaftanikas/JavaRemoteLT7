@@ -28,7 +28,7 @@ public class AssertionExamples {
         int result = calculator.subtract(65, 14);
 
         //then
-        Assertions.assertEquals(51, result);
+        Assertions.assertEquals(50, result);
     }
 
     @Test
