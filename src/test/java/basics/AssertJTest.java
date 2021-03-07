@@ -36,6 +36,7 @@ public class AssertJTest {
                 .isNotEqualTo(6)
                 .isLessThan(200)
                 .isGreaterThan(5)
-                .isBetween(-99, 8);
+                .isBetween(-99, 8)
+                .isNotEqualTo(10);
     }
 }
