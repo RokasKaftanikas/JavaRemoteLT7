@@ -1,4 +1,4 @@
-package bascis;
+package basics;
 
 import fundamentals_testing.Calculator;
 import org.junit.jupiter.api.Assertions;

@@ -1,4 +1,4 @@
-package bascis;
+package basics;
 
 import org.junit.jupiter.api.*;
 
